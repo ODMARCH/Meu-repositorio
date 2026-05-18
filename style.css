@@ -1,0 +1,123 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* (body) Define fonte, cor de fundo e cor do texto */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+
+        /* (header) Fundo escuro, texto centralizado e espaçamento */
+        header {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #a0a8d0;
+        }
+
+        header hr {
+            display: none; /* hr do HTML original ocultado o fundo já separa */
+        }
+
+        /* (nav) Barra horizontal com links lado a lado */
+        nav {
+            background-color: #16213e;
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        nav p {
+            margin: 0;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 0 10px;
+        }
+
+        nav a:hover {
+            color: #7b8cde;
+            text-decoration: underline;
+        }
+
+        nav hr {
+            display: none;
+        }
+
+        /* CONTAINER CENTRAL - Centraliza e limita a largura do conteúdo */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* SEÇÕES (section) Cada bloco de conteúdo tem fundo branco,
+                            borda arredondada e sombra leve */
+        section {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 6px;
+            padding: 30px;
+            margin-bottom: 24px;
+        }
+
+        section h2 {
+            font-size: 22px;
+            color: #1a1a2e;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #7b8cde;
+            padding-bottom: 8px;
+        }
+
+        section h3 {
+            font-size: 18px;
+            color: #333333;
+            margin-bottom: 8px;
+        }
+
+        section p {
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+
+        section hr {
+            display: none;
+        }
+
+        /* LISTA DE CURSOS (ul / li) */
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            font-size: 15px;
+            line-height: 2;
+            color: #444444;
+        }
+
+        /* RODAPÉ (footer) Fundo escuro, texto centralizado, menor */
+        footer {
+            background-color: #1a1a2e;
+            color: #a0a8d0;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
